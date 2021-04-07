@@ -18,8 +18,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "infoPlist":{
-        "UIBckgroundModes":[
+      "infoPlist": {
+        "UIBckgroundModes": [
           "location",
           "fetch"
         ]
@@ -33,6 +33,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/dakkapik/defiance-mobile"
   }
 }

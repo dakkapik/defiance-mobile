@@ -1,0 +1,238 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJkQr94EQb2YgRDM-RldIEiGc",
+            "types": [
+                "establishment",
+                "food",
+                "meal_delivery",
+                "meal_takeaway",
+                "point_of_interest",
+                "restaurant"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJ2xPaL94a2YgRJaROYZ98JYI",
+            "types": [
+                "premise"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 26.2981389,
+                    "lng": -80.1995761
+                },
+                "southwest": {
+                    "lat": 26.2861006,
+                    "lng": -80.2371137
+                }
+            },
+            "copyrights": "Map data ©2021",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "3.1 mi",
+                        "value": 5052
+                    },
+                    "duration": {
+                        "text": "8 mins",
+                        "value": 482
+                    },
+                    "end_address": "5479 Pine Ln, Coral Springs, FL 33067, USA",
+                    "end_location": {
+                        "lat": 26.2975612,
+                        "lng": -80.2356923
+                    },
+                    "start_address": "4690 N.St Rd 7 Suite #111, Coconut Creek, FL 33073, USA",
+                    "start_location": {
+                        "lat": 26.2865592,
+                        "lng": -80.2001059
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "174 ft",
+                                "value": 53
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 22
+                            },
+                            "end_location": {
+                                "lat": 26.2865438,
+                                "lng": -80.1995761
+                            },
+                            "html_instructions": "Head <b>east</b>",
+                            "polyline": {
+                                "points": "_bm_DtaohN@SBS?O?CAm@"
+                            },
+                            "start_location": {
+                                "lat": 26.2865592,
+                                "lng": -80.2001059
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "161 ft",
+                                "value": 49
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 22
+                            },
+                            "end_location": {
+                                "lat": 26.2861006,
+                                "lng": -80.1995953
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>Wiles Rd</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "{am_Dj~nhNZ@V?b@@"
+                            },
+                            "start_location": {
+                                "lat": 26.2865438,
+                                "lng": -80.1995761
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.1 mi",
+                                "value": 3449
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 290
+                            },
+                            "end_location": {
+                                "lat": 26.2868273,
+                                "lng": -80.2341672
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Wiles Rd</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "c_m_Dn~nhNIpAE`AAn@Ar@?BAnA?f@AnA?d@G`C?~CDr@ApB?hBC|C?f@E`IArCArD?l@AjBA`C?\\AhCAf@ChJAjC?XEpIAzACz@CZK~AAXAT?PATA`BElE?\\EtG?hBA~DCpDAtD?`ECnECzC?XAjCAvB?x@AxBAxC?TC~DAxBArCChCALCnE"
+                            },
+                            "start_location": {
+                                "lat": 26.2861006,
+                                "lng": -80.1995953
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 mi",
+                                "value": 1293
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 96
+                            },
+                            "end_location": {
+                                "lat": 26.2979388,
+                                "lng": -80.2370935
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Riverside Dr</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "ucm_DpvuhNkC?G?uA?q@@O?i@BYB[Ba@F]HI@UH[HGBYJe@Rc@TWPWNMJUJq@`@QLOHULMDQH[Ji@NODSD]FWDC?o@D}@Ac@@yD?g@@Y@g@D[D]FE@UDg@Ne@Po@TuAf@yBt@[Lg@NSHKDMDe@L[FUDA?YD[@c@@]AYC"
+                            },
+                            "start_location": {
+                                "lat": 26.2868273,
+                                "lng": -80.2341672
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "157 ft",
+                                "value": 48
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 14
+                            },
+                            "end_location": {
+                                "lat": 26.2978815,
+                                "lng": -80.2366141
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "cio_DxhvhNJ_B"
+                            },
+                            "start_location": {
+                                "lat": 26.2979388,
+                                "lng": -80.2370935
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "358 ft",
+                                "value": 109
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 29
+                            },
+                            "end_location": {
+                                "lat": 26.2980149,
+                                "lng": -80.2356805
+                            },
+                            "html_instructions": "Turn <b>left</b> to stay on <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "who_DxevhNQAW[GQAUXsB"
+                            },
+                            "start_location": {
+                                "lat": 26.2978815,
+                                "lng": -80.2366141
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "167 ft",
+                                "value": 51
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 9
+                            },
+                            "end_location": {
+                                "lat": 26.2975612,
+                                "lng": -80.2356923
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Pine Ln</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "qio_D~_vhNbA?L?F@"
+                            },
+                            "start_location": {
+                                "lat": 26.2980149,
+                                "lng": -80.2356805
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "_bm_DtaohND{@Am@Z@z@@OrCCbBCjEGfD?~CDr@AzECdEIvTEtKGvPGlLGvAO`DIbJKpVIbVK`YIdLCnEkC?}A?aA@cAFeBVsAb@iAh@o@`@gBfAeAf@iBf@u@Ls@DcI@aAFy@L[FmA`@{G`CuAd@aATWDu@FaA?YCJ_BQAW[Ig@XsBbA?T@"
+            },
+            "summary": "Wiles Rd and Riverside Dr",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
