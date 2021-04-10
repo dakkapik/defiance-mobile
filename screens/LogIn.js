@@ -1,9 +1,10 @@
-import React , { useState, useEffect } from 'react';
+import React , { useState } from 'react';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import getCredentials from '../utils/getCredentials'
 
 const settings = {
   STORE_LOCATION : { latitude: 26.286637840478523, longitude: -80.20009302407799 },
+  //make this into a menu ^ in the map screen
   GPS_ACCURACY : 6,
   ENDPOINT : "http://69.65.91.236:3001"
 }
