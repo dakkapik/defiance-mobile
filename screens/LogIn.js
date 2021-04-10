@@ -1,22 +1,25 @@
-import React , { useState } from 'react';
+import React , { useState, useEffect } from 'react';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import getCredentials from '../utils/getCredentials'
-import startSocket from '../utils/startSocket'
 
-const ENDPOINT = "http://69.65.91.236:3001"
+const settings = {
+  STORE_LOCATION : { latitude: 26.286637840478523, longitude: -80.20009302407799 },
+  GPS_ACCURACY : 6,
+  ENDPOINT : "http://69.65.91.236:3001"
+}
 
 export default function LogIn( {navigation} ) {
 
-  const [ employeeId, setEmployeeId ] = useState('3533')
+  const [ employeeId, setEmployeeId ] = useState('')
 
   const handleLogIn = () => {
-    getCredentials(employeeId, ENDPOINT)
-    .then(credentials => {
-      startSocket(credentials, ENDPOINT)
-      navigation.navigate("Map", {credentials})
-    })
-    .catch(err => console.log("getCredentials:", err))
+    if(employeeId){
+      getCredentials(employeeId, settings.ENDPOINT)
+      .then(credentials => navigation.navigate("Map", {credentials, settings}))
+      .catch(err => console.log("getCredentials:", err))
+    }
   }
+
   return (
     <View style={styles.screen}>
       <View style={styles.inputBox}>
