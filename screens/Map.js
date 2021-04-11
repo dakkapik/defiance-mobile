@@ -33,7 +33,7 @@ export default function Map({ route, navigation }) {
   useEffect(() => {
     if(socket){
       socket.on("route", (route)=>{
-        console.log("directions recieved")
+        console.log("directions received")
         setDirections(route)
       })
     }
