@@ -23,13 +23,15 @@
           "location",
           "fetch"
         ]
-      }
+      },
+      "bundleIdentifier": "com.dakkapik.defiancemobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dakkapik.defiancemobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
