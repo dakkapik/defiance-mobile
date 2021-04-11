@@ -2,7 +2,7 @@ name: Expo Publish
 on:
   push:
     branches:
-      - DEF-123-mobile-server-frontend-comms
+      - main
 jobs:
   publish:
     name: Install and publish
