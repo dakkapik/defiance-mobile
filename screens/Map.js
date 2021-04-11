@@ -33,6 +33,7 @@ export default function Map({ route, navigation }) {
   useEffect(() => {
     if(socket){
       socket.on("route", (route)=>{
+        console.log("directions recieved")
         setDirections(route)
       })
     }
@@ -85,8 +86,7 @@ export default function Map({ route, navigation }) {
     LocationAuth ?
     <View style={styles.fullScreen}>
       <Text>LAT: { position.latitude } LNG: { position.longitude}</Text>  
-      <MapView position={ position } navigate={ navigate } compass={ compass } directions={ directions }
-      />
+      <MapView position={ position } navigate={ navigate } compass={ compass } directions={ directions } />
       <TouchableOpacity style={styles.startNavigationButton} onPress={()=>setNavigate(!navigate)}>
         <Text style={styles.font}>{navigate ? "STOP NAVIGATION": "START NAVIGATION"}</Text>
       </TouchableOpacity>
