@@ -19,10 +19,11 @@ export default function Map (props) {
     const { position } = props;
     const { directions } = props;
     const { navigate } = props;
-    const { compass } = props
+    const { compass } = props;
 
     const _map = useRef(null);
     const [ route, setRoute ] =  useState([]);
+    const [ markers, setMarkers ] = useState([])
     const [ region, setRegion ] = useState({
         latitude: position.latitude,
         longitude: position.longitude,
@@ -34,15 +35,17 @@ export default function Map (props) {
 
         if(navigate && directions != 0){
             
-            const points = decode(directions.routes[0].overview_polyline.points)
+            const points = decode(directions.routes[0].overview_polyline.points);
+            
             const coords = points.map(( point ) => {
                 return {
                     latitude: point[0],
                     longitude: point[1]
-                }
-            })
-
+                };
+            });
+            
             setRoute(coords);
+            setMarkers(directions.geocoded_waypoints);
 
             _map.current.animateCamera({
                 center: {
@@ -104,6 +107,15 @@ export default function Map (props) {
     : null}
 
     {route.length > 0 && <Polyline coordinates={route} strokeWidth={4} strokeColor={"red"}/> }
+
+    {(markers.length > 0) ?
+        markers.map((marker, index) => {
+            if(index === 0) return
+            return <Marker coordinate={{latitude: marker.coords.lat, longitude: marker.coords.lng}} key={marker.place_id}/>
+        })
+    :
+        null
+    }
 
     </MapView>        
     );
