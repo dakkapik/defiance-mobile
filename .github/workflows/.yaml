@@ -2,7 +2,7 @@ name: Expo Publish
 on:
   push:
     branches:
-      - main
+      - DEF-123-mobile-server-frontend-comms
 jobs:
   publish:
     name: Install and publish
@@ -19,4 +19,3 @@ jobs:
           expo-password: ${{ secrets.EXPO_CLI_PASSWORD }}
       - run: yarn install
       - run: expo publish
-      
