@@ -1,0 +1,648 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJswDWJkUb2YgRN5zEc9NTQXw",
+      "types": [
+        "street_address"
+      ],
+      "coords": {
+        "lat": 26.286659103811463,
+        "lng": -80.19981933329022
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJAcIMvUQb2YgR1tSsZq24bOk",
+      "types": [
+        "street_address"
+      ],
+      "coords": {
+        "lat": 26.2896984,
+        "lng": -80.20190629999999
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJaYZz20ID2YgRrTKqhaXpY8Q",
+      "types": [
+        "premise"
+      ],
+      "coords": {
+        "lat": 26.2497314,
+        "lng": -80.1753439
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJswDWJkUb2YgRN5zEc9NTQXw",
+      "types": [
+        "street_address"
+      ],
+      "coords": {
+        "lat": 26.286659103811463,
+        "lng": -80.19981933329022
+      }
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 26.2959705,
+          "lng": -80.17530049999999
+        },
+        "southwest": {
+          "lat": 26.2499166,
+          "lng": -80.2019443
+        }
+      },
+      "copyrights": "Map data ©2021",
+      "legs": [
+        {
+          "distance": {
+            "text": "0.4 mi",
+            "value": 700
+          },
+          "duration": {
+            "text": "2 mins",
+            "value": 128
+          },
+          "end_address": "4852 FL-7, Coral Springs, FL 33073, USA",
+          "end_location": {
+            "lat": 26.2896984,
+            "lng": -80.20190629999999
+          },
+          "start_address": "5495 Wiles Rd, Coconut Creek, FL 33073, USA",
+          "start_location": {
+            "lat": 26.2866592,
+            "lng": -80.1998084
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "46 ft",
+                "value": 14
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "html_instructions": "Head <b>south</b>",
+              "polyline": {
+                "points": "sbm_Dx_ohNX?"
+              },
+              "start_location": {
+                "lat": 26.2866592,
+                "lng": -80.1998084
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "75 ft",
+                "value": 23
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 11
+              },
+              "end_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "html_instructions": "Turn <b>left</b> toward <b>Wiles Rd</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "yam_Dx_ohNAm@"
+              },
+              "start_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "161 ft",
+                "value": 49
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "html_instructions": "Turn <b>right</b> toward <b>Wiles Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "{am_Dj~nhNZ@V?b@@"
+              },
+              "start_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 227
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 54
+              },
+              "end_location": {
+                "lat": 26.28622,
+                "lng": -80.2018624
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Wiles Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c_m_Dn~nhNIpAE`AAn@Ar@?BAnA?f@AnA"
+              },
+              "start_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 387
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 36
+              },
+              "end_location": {
+                "lat": 26.2896984,
+                "lng": -80.20190629999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>N State Rd 7</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "{_m_DrlohN{@@m@?y@?q@?{@@_A@_A?k@?aA?s@AcCD"
+              },
+              "start_location": {
+                "lat": 26.28622,
+                "lng": -80.2018624
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        },
+        {
+          "distance": {
+            "text": "5.5 mi",
+            "value": 8798
+          },
+          "duration": {
+            "text": "15 mins",
+            "value": 886
+          },
+          "end_address": "3303 Aruba Way, Coconut Creek, FL 33066, USA",
+          "end_location": {
+            "lat": 26.2499166,
+            "lng": -80.17530049999999
+          },
+          "start_address": "4852 FL-7, Coral Springs, FL 33073, USA",
+          "start_location": {
+            "lat": 26.2896984,
+            "lng": -80.20190629999999
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 399
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 32
+              },
+              "end_location": {
+                "lat": 26.2932855,
+                "lng": -80.2019443
+              },
+              "html_instructions": "Head <b>north</b> on <b>N State Rd 7</b> toward <b>Alexandria Blvd</b>",
+              "polyline": {
+                "points": "sum_D|lohNe@?gA?}A@S?O?aA@{A?o@?Y?iA?kD@"
+              },
+              "start_location": {
+                "lat": 26.2896984,
+                "lng": -80.20190629999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.0 mi",
+                "value": 1592
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 128
+              },
+              "end_location": {
+                "lat": 26.295965,
+                "lng": -80.186557
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Winston Park Blvd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "aln_DbmohN@sD?y@?sBCqAC{@Ei@AOE]UcBGa@Om@Uw@Oc@GOw@oBeByDCGKSKUGSM]GSAEQo@K_@Ko@Ko@CSCWCWAWCWAYAWAW@aBByCAs@GqACYE]Gs@Kw@ESCQ]_B[iBGg@Iy@GeB@_F?_D?g@"
+              },
+              "start_location": {
+                "lat": 26.2932855,
+                "lng": -80.2019443
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.1 mi",
+                "value": 4995
+              },
+              "duration": {
+                "text": "7 mins",
+                "value": 428
+              },
+              "end_location": {
+                "lat": 26.2510439,
+                "lng": -80.1864562
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Lyons Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "w|n_D~llhNtEArD?pB?~BAlD?l@A`@?B?nAAbCEdDEz@?tA?dA?~B?rBA~A@rB?pA?^?tB@r@@rCDZAdA@r@?zA?jCAvEArC?nFAfCAT?vD?xB?xBArF@z@?pC?b@AjB?zB?rB?rD?pE?tECX?`@?dC?vA?~@?nB?j@?lA?X?fB@pC?nA?Z?b@AlB?`@?`C@`EAP?`BAp@?V?dB@xA?\\?V?b@?b@?nCAnC?xB?b@?jC?nB?fC@n@BnE?hD@T?`DApD?"
+              },
+              "start_location": {
+                "lat": 26.295965,
+                "lng": -80.186557
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 232
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 96
+              },
+              "end_location": {
+                "lat": 26.2509539,
+                "lng": -80.1843403
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Wynmoor Way</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "_df_DjllhNb@?Aa@CyAB{BAoACo@AIGe@"
+              },
+              "start_location": {
+                "lat": 26.2510439,
+                "lng": -80.1864562
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1354
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 143
+              },
+              "end_location": {
+                "lat": 26.251816,
+                "lng": -80.17544389999999
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Wynmoor Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "mcf_Db_lhNEUUFi@Fq@BaEIQ?c@?c@Ka@M[Um@c@]q@Sq@MiAAw@?cBO{AIk@o@aE?w@Bu@Ly@Rw@N_@T[RYV[^[ZSFCb@Sp@KRKXG`ASz@SVGLCn@a@Ve@Pm@@[BQB[?w@Is@Ki@CIW_AACu@mB"
+              },
+              "start_location": {
+                "lat": 26.2509539,
+                "lng": -80.1843403
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 211
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 51
+              },
+              "end_location": {
+                "lat": 26.2499443,
+                "lng": -80.17544749999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Aruba Way</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "{hf_DngjhNf@Bj@Hv@Lf@FfCUz@K"
+              },
+              "start_location": {
+                "lat": 26.251816,
+                "lng": -80.17544389999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "49 ft",
+                "value": 15
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 8
+              },
+              "end_location": {
+                "lat": 26.2499166,
+                "lng": -80.17530049999999
+              },
+              "html_instructions": "Turn <b>left</b> to stay on <b>Aruba Way</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "c}e_DpgjhNB]"
+              },
+              "start_location": {
+                "lat": 26.2499443,
+                "lng": -80.17544749999999
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        },
+        {
+          "distance": {
+            "text": "4.4 mi",
+            "value": 7066
+          },
+          "duration": {
+            "text": "12 mins",
+            "value": 716
+          },
+          "end_address": "5495 Wiles Rd, Coconut Creek, FL 33073, USA",
+          "end_location": {
+            "lat": 26.2866592,
+            "lng": -80.1998084
+          },
+          "start_address": "3303 Aruba Way, Coconut Creek, FL 33066, USA",
+          "start_location": {
+            "lat": 26.2499166,
+            "lng": -80.17530049999999
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "49 ft",
+                "value": 15
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 1
+              },
+              "end_location": {
+                "lat": 26.2499443,
+                "lng": -80.17544749999999
+              },
+              "html_instructions": "Head <b>west</b> on <b>Aruba Way</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "polyline": {
+                "points": "_}e_DrfjhNC\\"
+              },
+              "start_location": {
+                "lat": 26.2499166,
+                "lng": -80.17530049999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 211
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 58
+              },
+              "end_location": {
+                "lat": 26.251816,
+                "lng": -80.17544389999999
+              },
+              "html_instructions": "Turn <b>right</b> to stay on <b>Aruba Way</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c}e_DpgjhN{@JgCTg@Gw@Mk@Ig@C"
+              },
+              "start_location": {
+                "lat": 26.2499443,
+                "lng": -80.17544749999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1358
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 148
+              },
+              "end_location": {
+                "lat": 26.2510622,
+                "lng": -80.1843761
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Wynmoor Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{hf_DngjhNSFbAzCTp@Lx@@hAGp@Gd@EJGJEF_@Zm@VSD{@Rs@Hq@Vc@Fw@Va@Xg@d@[Za@r@O^_@tAGn@Ev@?r@x@dF@BNzAAdB@T?\\J|@Hb@Lb@P\\T\\HJVR`@Xp@TNBTBr@@bEFr@Cj@G"
+              },
+              "start_location": {
+                "lat": 26.251816,
+                "lng": -80.17544389999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 192
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 34
+              },
+              "end_location": {
+                "lat": 26.2510411,
+                "lng": -80.18630329999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Wynmoor Way</b><div style=\"font-size:0.9em\">Partial restricted usage road</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "cdf_Dj_lhNBzA@bGA^"
+              },
+              "start_location": {
+                "lat": 26.2510622,
+                "lng": -80.1843761
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "2.4 mi",
+                "value": 3853
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 333
+              },
+              "end_location": {
+                "lat": 26.2856928,
+                "lng": -80.1862724
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Lyons Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "_df_DjklhNeE@mCAU?qG?eBAq@AuAAY?uB?_D?kB?cD?m@?}E?]?iF?oB@S?Q?cA?qI@c@?c@?c@?_B?}FAmC@sCAs@?{A?mC?W?aB?m@?kB?q@?gC?kB?{@AmCAaB?kB?c@@qB?}AAcB?oC?_C@}A?eA?eC@M?G?_F?wC?kE@{C@kD?u@AaCB]?c@?aBC{DC"
+              },
+              "start_location": {
+                "lat": 26.2510411,
+                "lng": -80.18630329999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1351
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 123
+              },
+              "end_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Wiles Rd</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "q|l_DdklhNc@?Fd@DhADjA?l@?^?PEhC?VCxAArA?jB?RAxB?^CtAEbBEhA?HCdA?|@?pDAbC?h@?Z?`@?hC?jF@~DAhAA`AEv@?BGjAMhB"
+              },
+              "start_location": {
+                "lat": 26.2856928,
+                "lng": -80.1862724
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "161 ft",
+                "value": 49
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 8
+              },
+              "end_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "html_instructions": "Turn <b>right</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c_m_Dn~nhNc@AW?[A"
+              },
+              "start_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "75 ft",
+                "value": 23
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "html_instructions": "Turn <b>left</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{am_Dj~nhN@l@"
+              },
+              "start_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "46 ft",
+                "value": 14
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 6
+              },
+              "end_location": {
+                "lat": 26.2866592,
+                "lng": -80.1998084
+              },
+              "html_instructions": "Turn <b>right</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "yam_Dx_ohNY?"
+              },
+              "start_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "sbm_Dx_ohNX?Am@r@@b@@IpAGpBCnDAnA{@@gB?mFBeHB}LBcB?kD@@sD?mDGmCGy@[aCWoAe@{A_A_CiBaEm@{Ag@iB_@kCKaBCo@D{FIeCIw@SkBIe@y@iEQaBGeB@_F?gEzRC`GArEG`FEnKAdI@xIFda@Ef\\AnO?bNChS@hd@A`WAvDDxJ@lKAE{B@kEEy@M{@_ANq@BaEIu@?eAYiAy@]q@Sq@MiAAw@?cBO{Ay@mFBmBLy@Rw@N_@T[j@u@z@o@j@Wp@KRKzA[rA[LCn@a@Ve@Pm@Dm@BsAU}A[iAw@qBf@Bj@H~ATbEa@B]C\\cE`@_BUk@Ig@CSFbAzCTp@Lx@@hAGp@Mp@MR_@Zm@VoAXs@Hq@Vc@Fw@ViA~@[Za@r@o@tBMfB?r@x@dFP~A?zBJzAVfAf@z@`@^`@Xp@Td@FvFHr@Cj@GD~IA^eE@cDAwJAgCCoC?}M?uQ@{L@kE?sQAwT?wKC_J?sTBab@DeJGLnBDxBErEElHAxCIxDErACbCAzJ@vQIfEUtD{@A[A@l@Y?"
+      },
+      "summary": "Wiles Rd and N State Rd 7",
+      "warnings": [],
+      "waypoint_order": [
+        0,
+        1
+      ]
+    }
+  ],
+  "status": "OK"
+}

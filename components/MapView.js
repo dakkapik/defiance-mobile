@@ -20,10 +20,13 @@ export default function Map (props) {
     const { directions } = props;
     const { navigate } = props;
     const { compass } = props;
-
+    const { markers } = props; 
+    const { setCloseToMarker } = props;
+ 
     const _map = useRef(null);
+    const _polyline = useRef(null);
     const [ route, setRoute ] =  useState([]);
-    const [ markers, setMarkers ] = useState([])
+    const [ markers, setMarkers ] = useState([]);
     const [ region, setRegion ] = useState({
         latitude: position.latitude,
         longitude: position.longitude,
@@ -44,7 +47,9 @@ export default function Map (props) {
                 };
             });
             
+            coords.unshift(position)
             setRoute(coords);
+
             setMarkers(directions.geocoded_waypoints);
 
             _map.current.animateCamera({
@@ -60,7 +65,7 @@ export default function Map (props) {
 
         } else {
 
-            setRoute([]);
+            // setRoute([]);
 
             _map.current.animateCamera({
                 center: {
@@ -72,8 +77,9 @@ export default function Map (props) {
                 heading: 0
                 }, 5000
             );
-        }
-
+        };
+        // console.log("MARKER",markers[0].coords)
+        // console.log("POSITION", position)
     }, [navigate])
 
     useEffect(() => {
@@ -87,30 +93,50 @@ export default function Map (props) {
             heading: compass.magHeading
             }, 5000
         );
+        
+        // console.log(routeLink)
+        // if(route.length > 0){
+        //     if(Math.hypot((position.latitude - route[1].latitude), position.longitude - route[1].longitude) < 0.0001857718224060952){
+        //         setRoute(route.splice(1,1))
+        //     }
+        // }
+        // console.log(Math.hypot((position.latitude - route[1].latitude), position.longitude - route[1].longitude))
+
+        if(markers.length != 0){
+            if(Math.hypot((position.latitude - markers[1].coords.lat), position.longitude - markers[1].coords.lng) < 0.0003){
+                setCloseToMarker(true)
+            }else{
+                setCloseToMarker(false)
+            }
+        }
+
     }, [position]);
     
     return (
     <MapView 
-    style={styles.map} 
-    initialRegion={region}
-    rotateEnabled={true} 
-    showsCompass={true} 
-    ref={_map}
+    style={ styles.map } 
+    initialRegion={ region }
+    rotateEnabled={ true } 
+    showsCompass={ true } 
+    ref={ _map }
     >
-    {navigate?
+    {
+    navigate ?
         <Marker
-            coordinate={position}
-            image={redArrow}
-            anchor={{x: 0.5, y: 0 }}
+            coordinate={ position }
+            image={ redArrow }
+            anchor={{ x: 0.5, y: 0 }}
             // zoom/(zoom * 40)
         /> 
-    : null}
+    :
+        null 
+    }
 
-    {route.length > 0 && <Polyline coordinates={route} strokeWidth={4} strokeColor={"red"}/> }
+    {route.length > 0 && <Polyline coordinates={route} strokeWidth={4} strokeColor={"red"} ref={_polyline}/> }
 
     {(markers.length > 0) ?
         markers.map((marker, index) => {
-            if(index === 0) return
+            if(index === markers.length - 1) return
             return <Marker coordinate={{latitude: marker.coords.lat, longitude: marker.coords.lng}} key={marker.place_id}/>
         })
     :

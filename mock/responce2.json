@@ -1,0 +1,907 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJswDWJkUb2YgRN5zEc9NTQXw",
+      "types": [
+        "street_address"
+      ],
+      "coords": {
+        "lat": 26.286659103811463,
+        "lng": -80.19981933329022
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJ2xPaL94a2YgRJaROYZ98JYI",
+      "types": [
+        "premise"
+      ],
+      "coords": {
+        "lat": 26.2975058,
+        "lng": -80.235486
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJv-oo5pkc2YgRxrQH-ELr6W8",
+      "types": [
+        "premise"
+      ],
+      "coords": {
+        "lat": 26.2987923,
+        "lng": -80.1770006
+      }
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJswDWJkUb2YgRN5zEc9NTQXw",
+      "types": [
+        "street_address"
+      ],
+      "coords": {
+        "lat": 26.286659103811463,
+        "lng": -80.19981933329022
+      }
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 26.3015783,
+          "lng": -80.17563229999999
+        },
+        "southwest": {
+          "lat": 26.2857699,
+          "lng": -80.25054850000001
+        }
+      },
+      "copyrights": "Map data ©2021",
+      "legs": [
+        {
+          "distance": {
+            "text": "3.1 mi",
+            "value": 5036
+          },
+          "duration": {
+            "text": "8 mins",
+            "value": 477
+          },
+          "end_address": "5479 Pine Ln, Coral Springs, FL 33067, USA",
+          "end_location": {
+            "lat": 26.2975612,
+            "lng": -80.2356923
+          },
+          "start_address": "5495 Wiles Rd, Coconut Creek, FL 33073, USA",
+          "start_location": {
+            "lat": 26.2866592,
+            "lng": -80.1998084
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "46 ft",
+                "value": 14
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "html_instructions": "Head <b>south</b>",
+              "polyline": {
+                "points": "sbm_Dx_ohNX?"
+              },
+              "start_location": {
+                "lat": 26.2866592,
+                "lng": -80.1998084
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "75 ft",
+                "value": 23
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 11
+              },
+              "end_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "html_instructions": "Turn <b>left</b> toward <b>Wiles Rd</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "yam_Dx_ohNAm@"
+              },
+              "start_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "161 ft",
+                "value": 49
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "html_instructions": "Turn <b>right</b> toward <b>Wiles Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "{am_Dj~nhNZ@V?b@@"
+              },
+              "start_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "2.1 mi",
+                "value": 3449
+              },
+              "duration": {
+                "text": "5 mins",
+                "value": 289
+              },
+              "end_location": {
+                "lat": 26.2868273,
+                "lng": -80.2341672
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Wiles Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c_m_Dn~nhNIpAE`AAn@Ar@?BAnA?f@AnA?d@G`C?~CDr@ApB?hBC|C?f@E`IArCArD?l@AjBA`C?\\AhCAf@ChJAjC?XEpIAzACz@CZK~AAXAT?PATA`BElE?\\EtG?hBA~DCpDAtD?`ECnECzC?XAjCAvB?x@AxBAxC?TC~DAxBArCChCALCnE"
+              },
+              "start_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1293
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 97
+              },
+              "end_location": {
+                "lat": 26.2979388,
+                "lng": -80.2370935
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Riverside Dr</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "ucm_DpvuhNkC?G?uA?q@@O?i@BYB[Ba@F]HI@UH[HGBYJe@Rc@TWPWNMJUJq@`@QLOHULMDQH[Ji@NODSD]FWDC?o@D}@Ac@@yD?g@@Y@g@D[D]FE@UDg@Ne@Po@TuAf@yBt@[Lg@NSHKDMDe@L[FUDA?YD[@c@@]AYC"
+              },
+              "start_location": {
+                "lat": 26.2868273,
+                "lng": -80.2341672
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "157 ft",
+                "value": 48
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 14
+              },
+              "end_location": {
+                "lat": 26.2978815,
+                "lng": -80.2366141
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "cio_DxhvhNJ_B"
+              },
+              "start_location": {
+                "lat": 26.2979388,
+                "lng": -80.2370935
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "358 ft",
+                "value": 109
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 30
+              },
+              "end_location": {
+                "lat": 26.2980149,
+                "lng": -80.2356805
+              },
+              "html_instructions": "Turn <b>left</b> to stay on <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "who_DxevhNQAW[GQAUXsB"
+              },
+              "start_location": {
+                "lat": 26.2978815,
+                "lng": -80.2366141
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "167 ft",
+                "value": 51
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 9
+              },
+              "end_location": {
+                "lat": 26.2975612,
+                "lng": -80.2356923
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Pine Ln</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "qio_D~_vhNbA?L?F@"
+              },
+              "start_location": {
+                "lat": 26.2980149,
+                "lng": -80.2356805
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        },
+        {
+          "distance": {
+            "text": "6.6 mi",
+            "value": 10553
+          },
+          "duration": {
+            "text": "12 mins",
+            "value": 704
+          },
+          "end_address": "5543 NW 39th Ave, Coconut Creek, FL 33073, USA",
+          "end_location": {
+            "lat": 26.2987919,
+            "lng": -80.17679249999999
+          },
+          "start_address": "5479 Pine Ln, Coral Springs, FL 33067, USA",
+          "start_location": {
+            "lat": 26.2975612,
+            "lng": -80.2356923
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "167 ft",
+                "value": 51
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 8
+              },
+              "end_location": {
+                "lat": 26.2980149,
+                "lng": -80.2356805
+              },
+              "html_instructions": "Head <b>north</b> on <b>Pine Ln</b> toward <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "polyline": {
+                "points": "wfo_D``vhNGAM?cA?"
+              },
+              "start_location": {
+                "lat": 26.2975612,
+                "lng": -80.2356923
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "325 ft",
+                "value": 99
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 26.2979704,
+                "lng": -80.2365997
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "qio_D~_vhNYrB@TFPVZ"
+              },
+              "start_location": {
+                "lat": 26.2980149,
+                "lng": -80.2356805
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "157 ft",
+                "value": 48
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 12
+              },
+              "end_location": {
+                "lat": 26.2980571,
+                "lng": -80.2370742
+              },
+              "html_instructions": "Turn <b>right</b> to stay on <b>Pine Cir</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "iio_DvevhNQ|A"
+              },
+              "start_location": {
+                "lat": 26.2979704,
+                "lng": -80.2365997
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1349
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 123
+              },
+              "end_location": {
+                "lat": 26.2983236,
+                "lng": -80.2503734
+              },
+              "html_instructions": "Continue onto <b>Westview Dr</b>",
+              "polyline": {
+                "points": "{io_DthvhNAXQbCEZIdAq@dEALENIb@w@lDEVETK~@Aj@?`@?^Fp@Hp@N`AJxA?f@@~@S~EM~DCbCDjADrAPnB?DJ~@PnABTb@nFVxC"
+              },
+              "start_location": {
+                "lat": 26.2980571,
+                "lng": -80.2370742
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 285
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 26.3008771,
+                "lng": -80.2505035
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>N University Dr</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "oko_Dx{xhNi@Fe@DSBq@Fk@B[@k@@e@@a@AO?cCEYA"
+              },
+              "start_location": {
+                "lat": 26.2983236,
+                "lng": -80.2503734
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.6 mi",
+                "value": 5806
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 201
+              },
+              "end_location": {
+                "lat": 26.2998749,
+                "lng": -80.19257999999999
+              },
+              "html_instructions": "Take the ramp onto <b>FL-869 N</b><div style=\"font-size:0.9em\">Toll road</div>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "o{o_Dr|xhNGGAAGAC?AAC?EACCECCCCCCECEAEAICKAMAMAi@Ag@AU?QCk@C{AGwCCsA?EAWAiAEuAC_BAi@AU?GIoECmBAeA?CBmO@_DBwG?qA@_BI{A@a@?c@@GD{A@W@Y@Y?CFgAN}BH_AH_AReBl@iFTgCFeADe@?AHoBFyB@o@B}B@iD@u@@eCB_JDyLDyH?qABcH@yEDsRB_GB{CBqB@e@DkCHgD@g@@a@@g@D_BFeBBo@HwCB_@@c@@KHeDFyB?O@U@a@?CBsB@g@@k@@gA@gB@_@?k@?W@mF?s@?k@?kB?kB?sG?}C?i@?G@yG?mC?sE?{F?sA?yL"
+              },
+              "start_location": {
+                "lat": 26.3008771,
+                "lng": -80.2505035
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.7 mi",
+                "value": 1078
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 86
+              },
+              "end_location": {
+                "lat": 26.2960751,
+                "lng": -80.1865542
+              },
+              "html_instructions": "Take exit <b>19</b> to merge onto <b>Lyons Rd</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "euo_DrrmhNL]@GLeFJyE@U?A?W?W?W?YAWAWCYASCYCS?CEWEUEWEUGWGUI_@M_@]kAc@mB?E?A@IBC@C@CDEBAB?l@Ib@C\\ITAT?T?T?T?nB?vBAR@xAA~B@L?bCA"
+              },
+              "start_location": {
+                "lat": 26.2998749,
+                "lng": -80.19257999999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 201
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 33
+              },
+              "end_location": {
+                "lat": 26.2960221,
+                "lng": -80.1846699
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Winston Park Blvd</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "o}n_D|llhNV@?i@?iAA}@Aq@CeACoA"
+              },
+              "start_location": {
+                "lat": 26.2960751,
+                "lng": -80.1865542
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.8 mi",
+                "value": 1254
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 102
+              },
+              "end_location": {
+                "lat": 26.2998408,
+                "lng": -80.1773469
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Winston Park Blvd N</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "c}n_DdalhNQ?{BCoCCU?_A?aA@[?YAm@AS?_@EQGA?_@MCA[OA?{@m@c@i@S[IUMc@So@Ga@ESu@uCYy@GKo@wAa@}@QS_@qAQm@AEGg@Gg@Eq@@i@Bk@Du@b@aBDMDI\\}@`AiAJG\\S?Af@SZKZKB?p@E"
+              },
+              "start_location": {
+                "lat": 26.2960221,
+                "lng": -80.1846699
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 167
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 32
+              },
+              "end_location": {
+                "lat": 26.2998658,
+                "lng": -80.1756772
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>NW 56th St</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "_uo_DlsjhNCyAAO?sC?oA"
+              },
+              "start_location": {
+                "lat": 26.2998408,
+                "lng": -80.1773469
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "279 ft",
+                "value": 85
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 26.2991166,
+                "lng": -80.1758237
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>NW 38th Terrace</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "euo_D~hjhN^?b@@ZDVD\\L"
+              },
+              "start_location": {
+                "lat": 26.2998658,
+                "lng": -80.1756772
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "318 ft",
+                "value": 97
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 26.2990865,
+                "lng": -80.17679179999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>NW 55th Ct</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "opo_DzijhN?pDDN"
+              },
+              "start_location": {
+                "lat": 26.2991166,
+                "lng": -80.1758237
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "108 ft",
+                "value": 33
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 7
+              },
+              "end_location": {
+                "lat": 26.2987919,
+                "lng": -80.17679249999999
+              },
+              "html_instructions": "<b>NW 55th Ct</b> turns <b>left</b> and becomes <b>NW 39th Ave</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "polyline": {
+                "points": "ipo_D|ojhNz@?"
+              },
+              "start_location": {
+                "lat": 26.2990865,
+                "lng": -80.17679179999999
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        },
+        {
+          "distance": {
+            "text": "2.5 mi",
+            "value": 3993
+          },
+          "duration": {
+            "text": "7 mins",
+            "value": 402
+          },
+          "end_address": "5495 Wiles Rd, Coconut Creek, FL 33073, USA",
+          "end_location": {
+            "lat": 26.2866592,
+            "lng": -80.1998084
+          },
+          "start_address": "5543 NW 39th Ave, Coconut Creek, FL 33073, USA",
+          "start_location": {
+            "lat": 26.2987919,
+            "lng": -80.17679249999999
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "463 ft",
+                "value": 141
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 32
+              },
+              "end_location": {
+                "lat": 26.2976194,
+                "lng": -80.1766367
+              },
+              "html_instructions": "Head <b>south</b> on <b>NW 39th Ave</b> toward <b>NW 55th St</b>",
+              "polyline": {
+                "points": "mno_D|ojhNzA?vA@N?J@HCFCBGBQ"
+              },
+              "start_location": {
+                "lat": 26.2987919,
+                "lng": -80.17679249999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "322 ft",
+                "value": 98
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 21
+              },
+              "end_location": {
+                "lat": 26.2976188,
+                "lng": -80.1756568
+              },
+              "html_instructions": "<b>NW 39th Ave</b> turns slightly <b>left</b> and becomes <b>NW 55th St</b>",
+              "polyline": {
+                "points": "cgo_D~njhN?cE"
+              },
+              "start_location": {
+                "lat": 26.2976194,
+                "lng": -80.1766367
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "331 ft",
+                "value": 101
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 18
+              },
+              "end_location": {
+                "lat": 26.2968656,
+                "lng": -80.17589509999999
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>NW 38th Terrace</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "cgo_DzhjhNjBEH@F@D@F@BD@D?D@D?F@L"
+              },
+              "start_location": {
+                "lat": 26.2976188,
+                "lng": -80.1756568
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "466 ft",
+                "value": 142
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 18
+              },
+              "end_location": {
+                "lat": 26.2968769,
+                "lng": -80.1773228
+              },
+              "html_instructions": "Continue onto <b>NW 54th Ct</b>",
+              "polyline": {
+                "points": "mbo_DjjjhN?`A?dBArB"
+              },
+              "start_location": {
+                "lat": 26.2968656,
+                "lng": -80.17589509999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "292 ft",
+                "value": 89
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 16
+              },
+              "end_location": {
+                "lat": 26.2961321,
+                "lng": -80.17759769999999
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Winston Park Blvd N</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "obo_DfsjhNbAJHDf@NDHB@DBDBH@"
+              },
+              "start_location": {
+                "lat": 26.2968769,
+                "lng": -80.1773228
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "167 ft",
+                "value": 51
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 6
+              },
+              "end_location": {
+                "lat": 26.2960281,
+                "lng": -80.1772235
+              },
+              "html_instructions": "Turn <b>left</b> at <b>Winston Park Blvd</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "y}n_D~tjhNDADADABADEBKBG?E?EAGCE?CIK"
+              },
+              "start_location": {
+                "lat": 26.2961321,
+                "lng": -80.17759769999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.6 mi",
+                "value": 899
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 83
+              },
+              "end_location": {
+                "lat": 26.2888804,
+                "lng": -80.1767179
+              },
+              "html_instructions": "Continue onto <b>NW 39th Ave</b>",
+              "polyline": {
+                "points": "e}n_DrrjhNAIA]AKCQDc@BMBMFQFMZc@\\SPEPENAPA^?h@A@?pABTGb@?l@?d@Al@?r@?l@At@?n@?h@AV?|@?F?L?x@Ah@?h@BD?h@FTHNDXLRL^Tr@\\PFB?\\Lb@HVDPDX@B?L?P?b@A"
+              },
+              "start_location": {
+                "lat": 26.2960281,
+                "lng": -80.1772235
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.5 mi",
+                "value": 2386
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 189
+              },
+              "end_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Wiles Rd</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "opm_DnojhNB~BBjC@nBDnE@tBBlA?VB\\Bd@Hj@Ln@Nf@Pd@Pb@Xh@BDT\\PV`@`@XVd@b@RTXZV\\PRPVX`@^p@@@Vj@LVXt@Vr@Ph@Ln@Lf@N|@Jv@Fd@DhADjA?l@?^?PEhC?VCxAArA?jB?RAxB?^CtAEbBEhA?HCdA?|@?pDAbC?h@?Z?`@?hC?jF@~DAhAA`AEv@?BGjAMhB"
+              },
+              "start_location": {
+                "lat": 26.2888804,
+                "lng": -80.1767179
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "161 ft",
+                "value": 49
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 8
+              },
+              "end_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "html_instructions": "Turn <b>right</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c_m_Dn~nhNc@AW?[A"
+              },
+              "start_location": {
+                "lat": 26.2861006,
+                "lng": -80.1995953
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "75 ft",
+                "value": 23
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 5
+              },
+              "end_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "html_instructions": "Turn <b>left</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{am_Dj~nhN@l@"
+              },
+              "start_location": {
+                "lat": 26.2865438,
+                "lng": -80.1995761
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "46 ft",
+                "value": 14
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 6
+              },
+              "end_location": {
+                "lat": 26.2866592,
+                "lng": -80.1998084
+              },
+              "html_instructions": "Turn <b>right</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "yam_Dx_ohNY?"
+              },
+              "start_location": {
+                "lat": 26.2865348,
+                "lng": -80.1998074
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "sbm_Dx_ohNX?Am@r@@b@@IpAGpBCnDAtBG`C?~CDr@ApBCfGIpTM`^EjJEvCSjDIvIG|QQrd@CbJKvQE|EsC?gC@y@Bu@F_APcAX_A^{@f@e@ZgAl@eAj@m@Ty@TmARmBB}E@aABcAJaB^iKrDs@Rq@L[D_ABw@EJ_BQAW[GQAUXsBpA?F@GAqA?YrB@TFPVZSvBW~CIdAq@dEG\\aApEKl@MjB?`APbBN`AJxA@fBa@~KCbCDjAVbEJdATdBz@hKuCXgADqABoEIIIKAOGQQKa@C[CqAIoD[sPO{I@wQFiRI{A@a@@k@JgDFkAX}D`BwOV}EHiDDgHLu]Ji[HsZFmGRaKPoGf@gQNsLBiS@{i@?mONe@ZwM?aBI}AMiAY{A}@aDc@sB@KLQFApAM\\ITAj@?rGAzF@zC??sBKeGsHGwD?aAAq@MaA_@}@m@w@eAWy@So@Ga@{@iDa@eAqAuCQS_@qASs@OoAEq@@i@HaBn@yB\\}@`AiAh@[f@Uv@Wt@EEiB?cFbA@r@J\\L?pDDNz@?rD@Z@PGFY?cEjBEPBLBFV@|DArBbAJp@THJJFN?JCHGFSEYIOCg@E]Hq@J_@b@q@n@YPEjBErABTGb@?rAAl@?vCAhHCn@B~@Ph@Rr@b@dAd@`@Lz@Nj@FfAANjQDbEBt@Bd@VzA`@lAj@lAXb@r@x@~@z@l@p@tAjB`@r@d@bAp@hB^xA\\dBR|AJtC?lAIlGClICtBKlDCnA?nFAjF?~RGxBGnAMhBc@As@A@l@Y?"
+      },
+      "summary": "Wiles Rd and Riverside Dr",
+      "warnings": [],
+      "waypoint_order": [
+        0,
+        1
+      ]
+    }
+  ],
+  "status": "OK"
+}
