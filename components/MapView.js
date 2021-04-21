@@ -17,10 +17,10 @@ export default function Map (props) {
 
     //useState, just coming from a lower level
     const { position } = props;
-    const { directions } = props;
+    const { mapInstructions } = props;
     const { navigate } = props;
     const { compass } = props;
-    const { markers } = props; 
+    // const { markers } = props; 
     const { setCloseToMarker } = props;
  
     const _map = useRef(null);
@@ -36,9 +36,9 @@ export default function Map (props) {
 
     useEffect(() => {
 
-        if(navigate && directions != 0){
+        if(navigate && mapInstructions != 0){
             
-            const points = decode(directions.routes[0].overview_polyline.points);
+            const points = decode(mapInstructions.routes[0].overview_polyline.points);
             
             const coords = points.map(( point ) => {
                 return {
@@ -50,7 +50,7 @@ export default function Map (props) {
             coords.unshift(position)
             setRoute(coords);
 
-            setMarkers(directions.geocoded_waypoints);
+            setMarkers(mapInstructions.geocoded_waypoints);
 
             _map.current.animateCamera({
                 center: {
@@ -150,6 +150,6 @@ export default function Map (props) {
 const styles = StyleSheet.create({
     map: {
       width: Dimensions.get('window').width,
-      height: Dimensions.get('window').height - 30,
+      height: Dimensions.get('window').height
     }
 });

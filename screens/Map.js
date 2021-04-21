@@ -1,5 +1,5 @@
 import React , { useState, useEffect } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native';
 import startSocket from "../utils/startSocket";
 import LocationAuthorization from "../utils/LocationAuthorization";
 import MapView from "../components/MapView";
@@ -18,7 +18,7 @@ export default function Map({ route, navigation }) {
   };
   
   const settings =  {
-    ENDPOINT: "http://69.65.91.236:3001",
+    ENDPOINT: "https://defiance-prod.herokuapp.com/",
     GPS_ACCURACY: 6,
     STORE_LOCATION: {
       latitude: 26.286637840478523,
@@ -28,11 +28,15 @@ export default function Map({ route, navigation }) {
 
   const [ LocationAuth, setLocationAuth ] = useState(false);
   const [ position, setPosition ] = useState(settings.STORE_LOCATION);
-  const [ directions, setDirections ] = useState(mockData);
+
+  const [ directionsPolyline, setDirectionsPolyline ] = useState([]);
+  const [ deliveryRoute, setDeliveryRoute ] = useState({})
+  const [ mapInstructions, setMapInstructions ] = useState(mockData)
+
   const [ compass, setCompass ] = useState({});
   const [ navigate, setNavigate ] = useState(false);
-  const [ socket, setSocket ] = useState(null)
-  const [ closeToMarker, setCloseToMarker ] = useState(false)
+  // const [ socket, setSocket ] = useState(null);
+  const [ closeToMarker, setCloseToMarker ] = useState(false);
 
   const handleLocationAuthorization = () => {
     LocationAuthorization()
@@ -52,9 +56,13 @@ export default function Map({ route, navigation }) {
     console.log("delivery finished")
   }
 
+  const handleShowRoute = (route) =>{
+    
+  }
+
   // useEffect(() => {
   //   if(socket){
-  //     socket.on("route", (route)=>{
+  //     socket.on("route", ( route )=>{
   //       console.log("directions received")
   //       setDirections(route)
   //     })
@@ -96,36 +104,44 @@ export default function Map({ route, navigation }) {
 
   }, [navigate]);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    if(socket){
-      socket.emit("position", {position,  userId: 4545, storeId: "psq2"});
-    }
+  //   if(socket){
+  //     socket.emit("position", {position,  userId: 4545, storeId: "psq2"});
+  //   }
 
-  }, [position])
+  // }, [position])
+
 
   return (
     LocationAuth ?
     <View style={styles.fullScreen}>
-      <Text>LAT: { position.latitude } LNG: { position.longitude}</Text>  
       <MapView 
         position={ position } 
         navigate={ navigate } 
         compass={ compass } 
-        directions={ directions } 
+        mapInstructions={ mapInstructions } 
         setCloseToMarker={ setCloseToMarker }
       />
-      <View style={styles.mapUI}>
-      <TouchableOpacity style={styles.UIButton} onPress={()=>setNavigate(!navigate)}>
-        <Text style={styles.font}>{navigate ? "STOP NAVIGATION": "START NAVIGATION"}</Text>
-      </TouchableOpacity>
-      { closeToMarker ? 
-        <TouchableOpacity style={styles.UIButton} onPress={handleFinishDelivery}>
-          <Text style={styles.font}>FINISH DELIVERY</Text>
-        </TouchableOpacity>
-      :
-        null
-      }
+      <View style={styles.mapUIFrame}>
+        <View style={styles.mapTopUI}>
+          {mapInstructions ? 
+            <TouchableOpacity style={styles.UIButton} onPress={()=>handleShowRoute(mapInstructions)}>
+              <Text style={styles.font}>NEW DELIVERY ROUTE</Text>
+            </TouchableOpacity>
+          : null}
+        </View>
+        <View style={styles.mapUIView}/>
+        <View style={styles. mapBottomUI}>
+          <TouchableOpacity style={styles.UIButton} onPress={()=>setNavigate(!navigate)}>
+            <Text style={styles.font}>{navigate ? "STOP NAVIGATION": "START NAVIGATION"}</Text>
+          </TouchableOpacity>
+          { closeToMarker ? 
+          <TouchableOpacity style={styles.UIButton} onPress={handleFinishDelivery}>
+            <Text style={styles.font}>FINISH DELIVERY</Text>
+          </TouchableOpacity>
+          : null }
+        </View>
       </View>
     </View>
     :
@@ -145,7 +161,7 @@ export default function Map({ route, navigation }) {
 const styles = StyleSheet.create({
   fullScreen: {
     flex: 1,
-    paddingTop:50,
+    // paddingTop:50,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
@@ -157,10 +173,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  mapUI:{
-    flex: 1,
+  mapUIFrame: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+
     position: "absolute",
-    bottom: 0,
+    display: "flex",
+    flexDirection:"column"
+  },
+  mapUIView: {
+    flex: 6
+  },
+  mapTopUI:{
+    flex: 1,
+    // paddingTop:40,
+    flexDirection: "row",
+  },
+  mapBottomUI:{
+    flex: 1,
     flexDirection: "row",
     backgroundColor: "black"
   },
@@ -168,8 +198,6 @@ const styles = StyleSheet.create({
     flex:1,
     borderWidth: 2,
     borderColor: "black",
-    width: 100,
-    height: 100,
     backgroundColor: "red",
     alignItems: 'center',
     justifyContent: 'center',
