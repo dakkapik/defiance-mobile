@@ -18,7 +18,8 @@ export default function Map({ route, navigation }) {
   };
   
   const settings =  {
-    ENDPOINT: "https://defiance-prod.herokuapp.com/",
+    // ENDPOINT: "https://defiance-prod.herokuapp.com/",
+    ENDPOINT: "http://69.65.91.236:3001",
     GPS_ACCURACY: 6,
     STORE_LOCATION: {
       latitude: 26.286637840478523,
@@ -35,7 +36,7 @@ export default function Map({ route, navigation }) {
 
   const [ compass, setCompass ] = useState({});
   const [ navigate, setNavigate ] = useState(false);
-  // const [ socket, setSocket ] = useState(null);
+  const [ socket, setSocket ] = useState(null);
   const [ closeToMarker, setCloseToMarker ] = useState(false);
 
   const handleLocationAuthorization = () => {
@@ -56,25 +57,30 @@ export default function Map({ route, navigation }) {
     console.log("delivery finished")
   }
 
+  const handleDisconnect = () => {
+    setLocationAuth(false)
+    setSocket(null)
+  }
+
   const handleShowRoute = (route) =>{
     
   }
 
-  // useEffect(() => {
-  //   if(socket){
-  //     socket.on("route", ( route )=>{
-  //       console.log("directions received")
-  //       setDirections(route)
-  //     })
-  //   }
+  useEffect(() => {
+    // if(socket){
+    //   socket.on("route", ( route )=>{
+    //     console.log("directions received")
+    //     setDirections(route)
+    //   })
+    // }
 
-  //   return () => {
-  //     if(socket){
-  //       socket.disconnect()
-  //       setSocket(null)
-  //     }
-  //   }
-  // }, [socket])
+    return () => {
+      if(socket){
+        socket.disconnect()
+        setSocket(null)
+      }
+    }
+  }, [socket])
 
   useEffect(() => {
 
@@ -104,13 +110,13 @@ export default function Map({ route, navigation }) {
 
   }, [navigate]);
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   if(socket){
-  //     socket.emit("position", {position,  userId: 4545, storeId: "psq2"});
-  //   }
+    if(socket){
+      socket.emit("position", {position,  userId: 4545, storeId: "psq2"});
+    }
 
-  // }, [position])
+  }, [position])
 
 
   return (
@@ -130,6 +136,9 @@ export default function Map({ route, navigation }) {
               <Text style={styles.font}>NEW DELIVERY ROUTE</Text>
             </TouchableOpacity>
           : null}
+          <TouchableOpacity style={styles.UIButton} onPress={()=> handleDisconnect()}>
+              <Text style={styles.font}>disconnect</Text>
+          </TouchableOpacity>
         </View>
         <View style={styles.mapUIView}/>
         <View style={styles. mapBottomUI}>
